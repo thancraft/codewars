@@ -6,9 +6,6 @@ def double_char(s):
 
 
 ## Best Practices ##
-# penjelasan:
-# - menggunakan join dan list comprehension
-# - lebih efisien dan lebih cepat
-
-def double_char(s):
-    return ''.join(c * 2 for c in s)
+# 1.
+# def double_char(s):
+#     return ''.join(c * 2 for c in s)
