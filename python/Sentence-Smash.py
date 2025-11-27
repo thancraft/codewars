@@ -3,13 +3,13 @@ def smash(words):
 
 ## Best Practices ##
 # 1.
-# def smash(words):
-#     return " ".join(words)
+def smash(words):
+    return " ".join(words)
 
 # 2. 
-# smash = ' '.join
+smash = ' '.join
 
 # 3. 
-# def smash(words):
-#     return ' '.join(words).strip()
+def smash(words):
+    return ' '.join(words).strip()
     
