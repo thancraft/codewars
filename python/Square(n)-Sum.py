@@ -6,16 +6,16 @@ def square_sum(numbers):
 
 ## Best Practices ##
 # 1. 
-# def square_sum(numbers):
-#     return sum(x ** 2 for x in numbers)
+def square_sum(numbers):
+    return sum(x ** 2 for x in numbers)
 
 # 2.
-# def square_sum(numbers):
-#     return sum(x * x for x in numbers) 
+def square_sum(numbers):
+    return sum(x * x for x in numbers) 
 
 # 3.
-# def square_sum(numbers):
-# 	res = 0
-# 	for num in numbers:
-#    		res = res + num*num
-# 	return res
+def square_sum(numbers):
+	res = 0
+	for num in numbers:
+   		res = res + num*num
+	return res
