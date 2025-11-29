@@ -1,11 +1,6 @@
+# Menggandakan setiap karakter dalam string (contoh: "abc" -> "aabbcc")
 def double_char(s):
     nilai = ""
     for huruf in s:
-        nilai += huruf + huruf
+        nilai += huruf + huruf  # Tambahkan huruf dua kali
     return nilai
-
-
-## Best Practices ##
-# 1.
-def double_char(s):
-    return ''.join(c * 2 for c in s)
